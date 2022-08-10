@@ -5,7 +5,7 @@ from jinnabot import ask, append_interaction_to_chat_log
 app = Flask(__name__)
 
 # if for some reason your conversation with Jinna gets weird, change the secret key
-app.config['SECRET_KEY'] = '_5&&&&abcd**???*\/'
+app.config['SECRET_KEY'] = 'YOUR KEY HERE'
 
 @app.route('/jinnabot', methods=['POST'])
 def jinnabot():
